@@ -26,6 +26,7 @@ from dotenv import load_dotenv
 # .env 파일을 읽어서 환경 변수로 설정
 load_dotenv()
 
+
 # os 모듈을 활용해서 환경 변수를 조회
 SECRET_KEY = os.getenv('SECRET_KEY')
 
